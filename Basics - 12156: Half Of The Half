@@ -1,0 +1,28 @@
+/*
+*Date: 01/05/2016
+*Author: Abdus Salam
+*Contact: salam4268@gmail.com
+*Source: http://spoj.com
+*Problem No: 12156
+*Name: Half of the half
+*/
+
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+    char s[201];
+    int t, i;
+
+    scanf("%d", &t);
+
+    while(t>=0) {
+        gets(s);
+        for(i=0; i<(strlen(s)/2); i++)
+            putchar(s[i]);
+        putchar('\n');
+        t--;
+    }
+    return 0;
+}
