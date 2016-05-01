@@ -1,0 +1,21 @@
+/*
+*Date: 01/05/2016
+*Author: Abdus Salam
+*Contact: salam4268@gmail.com
+*Source: http://spoj.com
+*Problem No: 12026
+*Name: Test 1
+*/
+
+#include <stdio.h>
+
+int main()
+{
+    int a, b;
+
+    scanf("%d\n", &a);
+    scanf("%d\n", &b);
+
+    printf("%d\n", a+b);
+    return 0;
+}
